@@ -1,11 +1,9 @@
 package com.vtd.bai2;
 
-public class XeBonBanh extends Xe {
-	public void DoXang() {
-		System.out.println("Do xang");
-	}
+public class XeBonBanh extends Xe implements DoNhienLieu {
 
-	public XeBonBanh(String mauSon, double trongLuong) {
-		super(mauSon, trongLuong);
+	@Override
+	public void doXang() {
+		System.out.println("Do xang");
 	}
 }
