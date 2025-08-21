@@ -1,8 +1,7 @@
 package com.vtd.bai2;
 
-public class XeBonBanh extends Xe implements DoNhienLieu {
+public class XeBonBanh extends Xe {
 
-	@Override
 	public void doXang() {
 		System.out.println("Do xang");
 	}
